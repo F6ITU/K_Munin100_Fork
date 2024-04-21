@@ -1,7 +1,6 @@
 # K_Munin400
 LA2NI's OpenHPSDR 100W HF amplifier (Kicad Version)
 
-![Munin, a 400W HF linear amplifier](https://github.com/F6ITU/K_Munin400/blob/main/K_Munin400.png)
 
 This amplifier board is part of a set consisting of a 100 W LD-Mos based RF power amplifier (Munin 400), 
 a medium power Zolotarev low pass filter (600 or 1500 W), an Automatic Antenna Tuner (ATU) nickname « Aries » 
