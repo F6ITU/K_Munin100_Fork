@@ -7255,7 +7255,7 @@
 	)
 	(text "Note for 100W version\n"
 		(exclude_from_sim no)
-		(at 222.758 41.402 0)
+		(at 223.012 36.322 0)
 		(effects
 			(font
 				(size 2 2)
