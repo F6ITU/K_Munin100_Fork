@@ -14,6 +14,10 @@ This amplifier board is part of a set consisting of a 100 W LD-Mos based RF powe
 a medium power Zolotarev low pass filter (600 or 1500 W), an Automatic Antenna Tuner (ATU) nickname « Aries » 
 and a 4 port antenna switch.
 
+But the power level is compatible with the traditional "Alexiares" filter frontend, (https://wiki.electrolab.fr/Projets:Lab:2017:Peripheriques_Angelia )
+in lpf/hpf configuration or it's up to date evolution (lpf and dual bpf) 
+
+
 All these developments are the work and intellectual property of Kjell Karlsen LA2NI and Laurence Barker G8NJJ.
 
 This original work can be downloaded from
