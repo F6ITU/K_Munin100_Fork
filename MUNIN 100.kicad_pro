@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 5.0
+          "drill": 3.2,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -183,7 +183,15 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.6,
+        0.8,
+        1.0,
+        1.5,
+        1.8,
+        2.0,
+        2.5,
+        5.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -486,7 +494,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Munin100_Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -609,7 +617,7 @@
   "sheets": [
     [
       "23397694-a57f-4fcf-95b5-f9e2ccb3d33d",
-      "Root"
+      "Racine"
     ]
   ],
   "text_variables": {}

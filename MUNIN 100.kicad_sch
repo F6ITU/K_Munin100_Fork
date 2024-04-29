@@ -265,6 +265,125 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x03_Male"
 			(pin_names
 				(offset 1.016) hide)
@@ -449,240 +568,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Conn_01x04_Male"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Male"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Male_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4607,144 +4492,6 @@
 				)
 			)
 		)
-		(symbol "KjellKarlsen:TLV760-5V"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U?"
-				(at 0 5.3382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV760-5V"
-				(at 0 3.0395 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-				(at -1.27 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV760-5V_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV760-5V_1_1"
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LA2NI:FB_Link"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4859,23 +4606,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4900,7 +4647,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4918,7 +4665,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4927,9 +4674,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -4937,6 +4684,166 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TL783:TL783"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at 0 6.0495 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TL783"
+				(at 0 3.6252 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
+				(at 0.635 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "High Voltage Regulator .7A ADJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?252* TO?263* TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL783_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TL783_1_1"
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -6216,12 +6123,6 @@
 		(uuid "3a4ae8b9-b593-4ec2-9012-7ddf21782293")
 	)
 	(junction
-		(at 83.82 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3da454e4-e2f0-4b24-a994-baf5840516f2")
-	)
-	(junction
 		(at 218.44 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6324,6 +6225,12 @@
 		(uuid "67a24686-dc71-4306-846e-209fffbdc479")
 	)
 	(junction
+		(at 81.28 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "682df8d3-22aa-4eb0-a1df-5733960adb0e")
+	)
+	(junction
 		(at 134.62 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6370,18 +6277,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "835257f0-05a3-40b7-b05b-9581c4fda47e")
-	)
-	(junction
-		(at 227.33 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "848e9ad5-6ad9-4f75-b407-2b6fb4bd1218")
-	)
-	(junction
-		(at 227.33 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8512fd2b-1753-4fef-8d57-9ee1c8cc2c6e")
 	)
 	(junction
 		(at 142.24 120.65)
@@ -6581,6 +6476,10 @@
 		(color 0 0 0 0)
 		(uuid "fff6eba9-7ae9-4384-b3da-ec50f58e3cbb")
 	)
+	(no_connect
+		(at 34.29 46.99)
+		(uuid "b58c5ffe-8ee5-4dc0-a0ba-0c41a427d4a2")
+	)
 	(wire
 		(pts
 			(xy 119.38 125.73) (xy 119.38 128.27)
@@ -6620,16 +6519,6 @@
 			(type default)
 		)
 		(uuid "0275bcf1-f027-4e7c-9162-0fc2563fa968")
-	)
-	(wire
-		(pts
-			(xy 80.01 77.47) (xy 80.01 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f92d0e-046b-4533-91f2-98c808b39be2")
 	)
 	(wire
 		(pts
@@ -6773,6 +6662,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 77.47) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db40f67-65fe-4a96-8e81-803f4a67bf0c")
+	)
+	(wire
+		(pts
 			(xy 161.29 106.68) (xy 161.29 114.3)
 		)
 		(stroke
@@ -6830,6 +6729,16 @@
 			(type default)
 		)
 		(uuid "12c40cd5-6bb9-4fd7-952e-b6c210f627de")
+	)
+	(wire
+		(pts
+			(xy 81.28 76.2) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1308cb34-b9a5-4482-9e36-5fabbc8395a0")
 	)
 	(wire
 		(pts
@@ -6900,16 +6809,6 @@
 			(type default)
 		)
 		(uuid "171507fa-b48a-4a17-965b-e813d47e94a1")
-	)
-	(wire
-		(pts
-			(xy 80.01 72.39) (xy 81.28 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "171921ed-ad7b-4d9d-8199-bb91794e4fb5")
 	)
 	(wire
 		(pts
@@ -7163,16 +7062,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 72.39) (xy 87.63 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22970bbe-bea0-4410-9eab-12c456776882")
-	)
-	(wire
-		(pts
 			(xy 123.19 67.31) (xy 123.19 73.66)
 		)
 		(stroke
@@ -7270,16 +7159,6 @@
 			(type default)
 		)
 		(uuid "2ef0c887-bc60-4ef3-bd36-5d632b78d3fa")
-	)
-	(wire
-		(pts
-			(xy 160.02 46.99) (xy 157.48 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f346b9c-4da6-4bad-aa99-e0bfefbc6683")
 	)
 	(wire
 		(pts
@@ -7410,16 +7289,6 @@
 			(type default)
 		)
 		(uuid "3daaf6ea-806b-42bc-8b39-de5c8b321dcb")
-	)
-	(wire
-		(pts
-			(xy 229.87 66.04) (xy 227.33 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4f04aa-7b36-4623-a42e-7d4aca2f4179")
 	)
 	(wire
 		(pts
@@ -7733,6 +7602,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 46.99) (xy 157.48 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548af09f-da4c-4d69-a8af-564eedcf839b")
+	)
+	(wire
+		(pts
 			(xy 146.05 71.12) (xy 148.59 71.12)
 		)
 		(stroke
@@ -7750,16 +7629,6 @@
 			(type default)
 		)
 		(uuid "5615dfa1-4b67-4b29-8e84-518e088f10e4")
-	)
-	(wire
-		(pts
-			(xy 157.48 46.99) (xy 157.48 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5780ea5a-85dd-42d1-89ae-32b9f474321f")
 	)
 	(wire
 		(pts
@@ -7893,16 +7762,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 63.5) (xy 227.33 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6589eb61-5952-4bfd-a82c-8596c9f86a9f")
-	)
-	(wire
-		(pts
 			(xy 205.74 52.07) (xy 205.74 53.34)
 		)
 		(stroke
@@ -7990,16 +7849,6 @@
 			(type default)
 		)
 		(uuid "71b2aa6a-7b79-421a-a395-6d71acc74c53")
-	)
-	(wire
-		(pts
-			(xy 83.82 76.2) (xy 87.63 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "737922f0-dbc0-4e70-9933-3430425da0b2")
 	)
 	(wire
 		(pts
@@ -8173,16 +8022,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 50.8) (xy 157.48 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88de8e1e-890d-4485-9fb3-df24a43fafa1")
-	)
-	(wire
-		(pts
 			(xy 64.77 39.37) (xy 73.66 39.37)
 		)
 		(stroke
@@ -8253,6 +8092,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 72.39) (xy 81.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92835a28-a059-47b7-947f-34595b76123a")
+	)
+	(wire
+		(pts
 			(xy 69.85 46.99) (xy 72.39 46.99)
 		)
 		(stroke
@@ -8293,16 +8142,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 71.12) (xy 229.87 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96dea522-6791-4e63-9587-1754fe3ec147")
-	)
-	(wire
-		(pts
 			(xy 78.74 39.37) (xy 80.01 39.37)
 		)
 		(stroke
@@ -8313,7 +8152,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 36.83) (xy 157.48 36.83)
+			(xy 148.59 36.83) (xy 160.02 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8623,16 +8462,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 63.5) (xy 229.87 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6c789e8-9c7f-49da-b798-e829168b87dc")
-	)
-	(wire
-		(pts
 			(xy 69.85 120.65) (xy 78.74 120.65)
 		)
 		(stroke
@@ -8643,7 +8472,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 76.2) (xy 83.82 76.2)
+			(xy 73.66 76.2) (xy 81.28 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8690,16 +8519,6 @@
 			(type default)
 		)
 		(uuid "b8f805cb-c959-4717-bbf8-84ae8366ac13")
-	)
-	(wire
-		(pts
-			(xy 227.33 68.58) (xy 227.33 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba6d1a8b-6d09-45de-a326-d23b5c855250")
 	)
 	(wire
 		(pts
@@ -9043,7 +8862,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 63.5) (xy 227.33 63.5)
+			(xy 218.44 63.5) (xy 229.87 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9090,16 +8909,6 @@
 			(type default)
 		)
 		(uuid "e4d118a0-e6e8-4af6-a049-6853597d6262")
-	)
-	(wire
-		(pts
-			(xy 160.02 50.8) (xy 157.48 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e52b0053-683c-4d5c-9afd-842f11b35b45")
 	)
 	(wire
 		(pts
@@ -9153,13 +8962,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 76.2) (xy 87.63 72.39)
+			(xy 157.48 46.99) (xy 160.02 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edb391d0-b229-49fc-a122-b08af98447e0")
+		(uuid "ecd40b99-db4d-485a-a438-5594ca9fc2d3")
 	)
 	(wire
 		(pts
@@ -9273,6 +9082,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 36.83) (xy 160.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77fe42c-cf42-4a00-a4cf-ff6973cdbe90")
+	)
+	(wire
+		(pts
 			(xy 59.69 54.61) (xy 71.12 54.61)
 		)
 		(stroke
@@ -9353,7 +9172,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 71.12) (xy 227.33 74.93)
+			(xy 227.33 68.58) (xy 227.33 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9363,7 +9182,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 77.47) (xy 80.01 77.47)
+			(xy 66.04 77.47) (xy 86.36 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9514,6 +9333,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 76.2 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0493a2c7-9870-4bf8-bbfc-9b8a63d23773")
+		(property "Reference" "H3"
+			(at 78.74 166.4278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 78.74 168.8521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 76.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 76.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c0bcfa9-c0d5-4c57-87be-735156bada24")
+		)
+		(instances
+			(project "MUNIN 100"
+				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 96.52 66.04 90)
 		(unit 1)
@@ -9523,7 +9409,7 @@
 		(dnp no)
 		(uuid "057cb9e7-dd96-4599-a1e2-f25002c06f7a")
 		(property "Reference" "R19"
-			(at 92.71 64.77 90)
+			(at 96.52 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,7 +9542,7 @@
 		(dnp no)
 		(uuid "07d0b575-568d-4f3f-a032-591b24ec76db")
 		(property "Reference" "R18"
-			(at 96.52 59.69 90)
+			(at 96.52 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,7 +9694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132291_Vertical"
+		(property "Footprint" "SMA_PINS:SMA_PINS"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -10397,6 +10283,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 234.95 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "187d3cd1-ef8b-4335-af5d-37de274e1e07")
+		(property "Reference" "J4"
+			(at 234.315 59.2793 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 234.315 61.7036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7461057:7461057"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 234.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72bf5a85-286b-4ff6-9f6d-3f36135fb7a6")
+		)
+		(instances
+			(project "MUNIN 100"
+				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 95.25 0)
 		(unit 1)
@@ -10456,86 +10407,6 @@
 			(project "MUNIN 100"
 				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transformer:ADT4-1WT")
-		(at 39.37 46.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20a138f9-cbe1-4fd7-9d88-714ac8bab80d")
-		(property "Reference" "TR1"
-			(at 38.97 36.0894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADT4-1WT"
-			(at 39.37 38.8645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_CD542_H2.84mm"
-			(at 39.37 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.minicircuits.com/pdfs/ADT4-1WT+.pdf"
-			(at 39.37 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8843489-2b80-4fdd-bbc9-c7579bdffb55")
-		)
-		(pin "2"
-			(uuid "8f6a7788-d989-48fd-997b-2a7b1fd15e0a")
-		)
-		(pin "3"
-			(uuid "df521bd1-c927-413a-8f82-46380aab2427")
-		)
-		(pin "4"
-			(uuid "cb68f798-27bd-4533-9c24-0b0f8c99ced4")
-		)
-		(pin "5"
-			(uuid "a5a30af3-80f7-4509-a818-425734379134")
-		)
-		(pin "6"
-			(uuid "418114bc-17de-4a95-afb1-a0b956c4674e")
-		)
-		(instances
-			(project "MUNIN 100"
-				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
-					(reference "TR1")
 					(unit 1)
 				)
 			)
@@ -10603,6 +10474,78 @@
 			(project "MUNIN 100"
 				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TL783:TL783")
+		(at 106.68 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23de71f7-368a-403b-93e1-ac4c77bcc046")
+		(property "Reference" "U3"
+			(at 106.68 114.6005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL783"
+			(at 106.68 117.0248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
+			(at 107.315 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "71fcc41a-dee8-4aff-b84f-165e937b248a")
+		)
+		(pin "1"
+			(uuid "0043651f-3980-4065-aa9f-e33aa417dbdd")
+		)
+		(pin "2"
+			(uuid "52daee0c-b02c-40aa-8922-5f7c94233521")
+		)
+		(instances
+			(project "MUNIN 100"
+				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11086,70 +11029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 85.09 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39aec47b-1839-4853-8ae9-83599919b249")
-		(property "Reference" "H4"
-			(at 87.63 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MH"
-			(at 87.63 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 85.09 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "MUNIN 100"
-				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
 		(at 76.2 33.02 0)
 		(unit 1)
@@ -11217,70 +11096,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 76.2 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42413ebd-bb23-457e-83d6-ab4100ec7e37")
-		(property "Reference" "H3"
-			(at 78.74 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MH"
-			(at 78.74 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 76.2 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "MUNIN 100"
-				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Core_Ferrite_Small")
 		(at 99.06 83.82 90)
 		(unit 1)
@@ -11297,8 +11112,8 @@
 				)
 			)
 		)
-		(property "Value" "WuryhElek: 742792096"
-			(at 99.06 84.9715 90)
+		(property "Value" "Wurth: 742792096"
+			(at 99.568 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,6 +11565,73 @@
 			(project "MUNIN 100"
 				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 85.09 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f167f0e-a8cf-4bb8-91ff-9b279b3d7fd2")
+		(property "Reference" "H4"
+			(at 87.63 166.4278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 87.63 168.8521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 85.09 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 85.09 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ced3afb-368d-40f1-9ee9-48f48d385c08")
+		)
+		(instances
+			(project "MUNIN 100"
+				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -12507,77 +12389,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KjellKarlsen:TLV760-5V")
-		(at 106.68 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "818296b6-bb79-4174-bfda-c2e6abceef20")
-		(property "Reference" "U1"
-			(at 106.68 115.3118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL783CKTT"
-			(at 106.68 117.6105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 106.68 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 107.95 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6027a9e-1ba1-440b-a1cc-857f9e747623")
-		)
-		(pin "2"
-			(uuid "c04bf3ac-3f0c-4f27-be16-2243260bc79f")
-		)
-		(pin "3"
-			(uuid "59ee9cce-1a99-4692-9612-c63d46c1b288")
-		)
-		(instances
-			(project "MUNIN 100"
-				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 134.62 111.76 0)
 		(unit 1)
@@ -12648,6 +12459,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 59.69 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "881fbf66-b376-441e-993f-e2a85454334a")
+		(property "Reference" "H1"
+			(at 62.23 166.4278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 62.23 168.8521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 59.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 59.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4c9a1a8-f01b-4e67-9b25-f6f0430589be")
+		)
+		(instances
+			(project "MUNIN 100"
+				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KjellKarlsen:TLT")
 		(at 115.57 46.99 90)
 		(mirror x)
@@ -12675,7 +12553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LA2NI:TLT_94_3"
+		(property "Footprint" "TLT:TLT"
 			(at 115.57 46.99 0)
 			(effects
 				(font
@@ -13120,83 +12998,6 @@
 			(project "MUNIN 100"
 				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Male")
-		(at 234.95 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "936cfd5d-2f2e-4d78-951b-8989c884e46a")
-		(property "Reference" "J4"
-			(at 236.22 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3-647630-4"
-			(at 236.22 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 234.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ad896d2-2dad-475e-917e-32c0bb7ff8eb")
-		)
-		(pin "2"
-			(uuid "9d07c116-582c-474c-93d9-728a84d8f38c")
-		)
-		(pin "3"
-			(uuid "b6fb3407-0a05-4a3d-b25f-d0c232e443ce")
-		)
-		(pin "4"
-			(uuid "a927d1e6-0247-43f5-a7e5-84e0c9720c42")
-		)
-		(instances
-			(project "MUNIN 100"
-				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13700,6 +13501,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 234.95 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a29c2fda-c9b1-42d1-9c42-fea69a9b1e6f")
+		(property "Reference" "J5"
+			(at 234.315 64.3593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 234.315 66.7836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7461057:7461057"
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1668c684-8b76-441c-b766-4685781c9977")
+		)
+		(instances
+			(project "MUNIN 100"
+				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 205.74 46.99 0)
 		(unit 1)
@@ -13727,7 +13593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132291_Vertical"
+		(property "Footprint" "SMA_PINS:SMA_PINS"
 			(at 205.74 46.99 0)
 			(effects
 				(font
@@ -13736,7 +13602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "SMA_PINS:SMA_PINS"
 			(at 205.74 46.99 0)
 			(effects
 				(font
@@ -14108,70 +13974,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 67.31 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ace32f66-bef8-4beb-8a4d-5f7d6717e93b")
-		(property "Reference" "H2"
-			(at 69.85 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MH"
-			(at 69.85 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 67.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "MUNIN 100"
-				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:LMV358")
 		(at 146.05 95.25 0)
 		(unit 2)
@@ -14197,7 +13999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Diodes_PSOP-8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 146.05 95.25 0)
 			(effects
 				(font
@@ -14458,6 +14260,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 67.31 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5771297-4bd9-47c5-aac1-ea13ff1ff058")
+		(property "Reference" "H2"
+			(at 69.85 166.4278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 69.85 168.8521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 67.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 67.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58153159-a56f-4f40-a386-6b409736624b")
+		)
+		(instances
+			(project "MUNIN 100"
+				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KjellKarlsen:C_Small")
 		(at 113.03 46.99 0)
 		(unit 1)
@@ -14554,7 +14423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:Diodes_PSOP-8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 144.78 111.76 0)
 			(effects
 				(font
@@ -14777,7 +14646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LA2NI:TLT_94_3"
+		(property "Footprint" "Amidon_Binocular:Dual_FB-61-4852"
 			(at 168.91 41.91 0)
 			(effects
 				(font
@@ -14853,7 +14722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:Diodes_PSOP-8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 179.07 111.76 0)
 			(effects
 				(font
@@ -15544,7 +15413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1812_4532Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal"
 			(at 118.11 45.72 0)
 			(effects
 				(font
@@ -16097,7 +15966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LA2NI:FT_50_1"
+		(property "Footprint" "T50:T50_V_smd"
 			(at 130.81 63.5 0)
 			(effects
 				(font
@@ -16639,7 +16508,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 198.12 143.51 0)
 			(effects
 				(font
@@ -16953,35 +16822,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 59.69 171.45 0)
+		(lib_id "Transformer:ADT4-1WT")
+		(at 39.37 46.99 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff4daca2-625d-4e43-8e5a-16f9d4861092")
-		(property "Reference" "H1"
-			(at 62.23 170.1799 0)
+		(uuid "ff2e3a3d-772c-4b65-9fd7-4bf3146e8b83")
+		(property "Reference" "TR1"
+			(at 39.37 37.8163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MH"
-			(at 62.23 172.7199 0)
+		(property "Value" "ADT4-1WT"
+			(at 39.37 40.2406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 59.69 171.45 0)
+		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_CD542_H2.84mm"
+			(at 39.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16989,8 +16857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 59.69 171.45 0)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/ADT4-1WT+.pdf"
+			(at 39.37 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16998,19 +16866,37 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 59.69 171.45 0)
+		(property "Description" "2-775MHz 1:4 RF Transformer, Unbalanced to Balanced Center Tap, CD542"
+			(at 39.37 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "6"
+			(uuid "03e09959-70a7-4f6c-985e-a789352e1c65")
+		)
+		(pin "4"
+			(uuid "e54c17ed-51f8-4c6f-b02c-ac7069bfabfc")
+		)
+		(pin "5"
+			(uuid "59acd6ef-fcbd-4791-aad0-eabd8cb9373d")
+		)
+		(pin "2"
+			(uuid "a70699b6-25a4-454a-b4d7-32c012aac551")
+		)
+		(pin "1"
+			(uuid "34da0183-0a62-4441-9f77-b7a792482195")
+		)
+		(pin "3"
+			(uuid "4ad7b972-190f-4afa-a988-432ea5f5a6c5")
 		)
 		(instances
 			(project "MUNIN 100"
 				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
-					(reference "H1")
+					(reference "TR1")
 					(unit 1)
 				)
 			)

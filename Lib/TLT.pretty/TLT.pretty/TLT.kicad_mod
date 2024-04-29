@@ -1,0 +1,177 @@
+(footprint "TLT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "TLT1"
+		(at -4 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9bac1b8d-63ff-4505-8ac1-866135b16d4e")
+		(effects
+			(font
+				(size 1.8 1.8)
+				(thickness 0.37)
+			)
+		)
+	)
+	(property "Value" "FT94-61"
+		(at -3 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9da64694-1f0a-42a1-834b-b00f603f0f0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TLT:TLT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bbba94c-a15c-42dc-8ad4-d958a457fc6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb4ea3ff-0bef-4415-a7b9-9e7cff352fd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f76eba80-8b7f-4fb6-8f63-b96821445c72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -8 -6)
+		(end 1 -6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8a7eea22-cebf-432e-89a7-81d9183de1f9")
+	)
+	(fp_line
+		(start 1 4)
+		(end -8 4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97a241d7-9946-4ff2-b417-f5ec7d452158")
+	)
+	(fp_arc
+		(start -8 4)
+		(mid -13 -1)
+		(end -8 -6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3f504e44-36b1-404f-87c8-35711c2b39ee")
+	)
+	(fp_arc
+		(start 1 -6)
+		(mid 6 -1)
+		(end 1 4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "894f4726-2d7d-4f6a-bfbb-76576f1ffb58")
+	)
+	(fp_circle
+		(center -9 -1)
+		(end -6.5 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ae4d429c-52ef-432c-bd15-d8e97330725a")
+	)
+	(fp_circle
+		(center 2.5 -1)
+		(end 5 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "62c30f19-82c3-443f-9cf9-bf3b7add9751")
+	)
+	(pad "1" smd roundrect
+		(at -9 4)
+		(size 5 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9703be54-a73b-4157-8000-71ca47986823")
+	)
+	(pad "2" smd roundrect
+		(at -4.75 -5)
+		(size 3.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0ea08441-81ca-4769-ae05-885434b950a2")
+	)
+	(pad "3" smd roundrect
+		(at -2 -5)
+		(size 3.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "227aaa51-ee9f-4ad6-aa85-60c9d426bfcc")
+	)
+	(pad "4" smd roundrect
+		(at 2 4)
+		(size 5 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c132cb3f-f735-4bab-9ea4-afb39f5d3e3f")
+	)
+	(model "C:/Users/marco/Documents/KiCad/Lib_Custom/3dmodels/Binocular.3dshapes/BN 73-202.STEP"
+		(offset
+			(xyz -3.5 1.5 0.5)
+		)
+		(scale
+			(xyz 1.5 1.5 1.5)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
