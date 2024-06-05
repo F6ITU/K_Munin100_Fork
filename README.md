@@ -46,3 +46,17 @@ This LDMoS transistor-based amplifier brings speech over the great distances of 
 # Work in progress
 do NOT use these files as long as this footnote hasn't been deleted
 
+As far as I know, this amp has never been build. Some minor kicad errors and design hickups have been fix
+
+the pcb has been design to accomodate two feedback techniques : 
+- coupling from a "secondary" winding in the first TLT
+- or direct pickup of the drain signal
+Value or R16/19 should be changed accordingly 
+
+ibidem : the  the 1:4 input impedance transformer could be replaced with a simple coax strap (with or without ferrite core) as the combined impedance of the two transistors is approximately 50 Ohms at 55 MHz. On lower frequencies, the value of Z
+is determined by the value of R4-R11 (22 Ohms, not yet tested) 
+
+
+
+
+

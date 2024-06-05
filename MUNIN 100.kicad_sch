@@ -6477,6 +6477,10 @@
 		(uuid "fff6eba9-7ae9-4384-b3da-ec50f58e3cbb")
 	)
 	(no_connect
+		(at 184.15 83.82)
+		(uuid "79561a7d-4d45-4cc0-93b5-f831c0c34780")
+	)
+	(no_connect
 		(at 34.29 46.99)
 		(uuid "b58c5ffe-8ee5-4dc0-a0ba-0c41a427d4a2")
 	)
@@ -6669,6 +6673,16 @@
 			(type default)
 		)
 		(uuid "0db40f67-65fe-4a96-8e81-803f4a67bf0c")
+	)
+	(wire
+		(pts
+			(xy 179.07 132.08) (xy 179.07 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e1e46c1-d200-4bbb-ae7b-bc4830b1d93d")
 	)
 	(wire
 		(pts
@@ -7222,7 +7236,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 146.05) (xy 193.04 146.05)
+			(xy 179.07 151.13) (xy 193.04 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7552,16 +7566,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 132.08) (xy 179.07 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50793d96-6967-49db-9d3c-35f6e695658d")
-	)
-	(wire
-		(pts
 			(xy 48.26 52.07) (xy 50.8 52.07)
 		)
 		(stroke
@@ -7699,16 +7703,6 @@
 			(type default)
 		)
 		(uuid "5fc654ec-5e03-4a21-a3e4-2f655b4cc732")
-	)
-	(wire
-		(pts
-			(xy 176.53 151.13) (xy 176.53 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "601666ed-8da4-4284-8504-00ef7a189985")
 	)
 	(wire
 		(pts
@@ -8252,16 +8246,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 148.59) (xy 166.37 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1377120-1ded-4ea9-b7b4-34a2ec7c6682")
-	)
-	(wire
-		(pts
 			(xy 67.31 175.26) (xy 76.2 175.26)
 		)
 		(stroke
@@ -8602,16 +8586,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 143.51) (xy 193.04 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1f69285-f983-47e0-bccc-276b2003790f")
-	)
-	(wire
-		(pts
 			(xy 80.01 39.37) (xy 91.44 39.37)
 		)
 		(stroke
@@ -8699,16 +8673,6 @@
 			(type default)
 		)
 		(uuid "ce6d7a52-4dba-4f82-9310-7b475deaefce")
-	)
-	(wire
-		(pts
-			(xy 176.53 140.97) (xy 193.04 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d06844f0-be33-4764-baf7-702dc47aff3a")
 	)
 	(wire
 		(pts
@@ -8802,7 +8766,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 148.59) (xy 166.37 148.59)
+			(xy 69.85 148.59) (xy 193.04 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8989,6 +8953,16 @@
 			(type default)
 		)
 		(uuid "eebac909-ab92-4453-8194-49287fef3fa3")
+	)
+	(wire
+		(pts
+			(xy 191.262 146.05) (xy 193.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef815ab7-d782-4f8f-919f-278a5f48ca23")
 	)
 	(wire
 		(pts
@@ -9210,9 +9184,19 @@
 		)
 		(uuid "ffa5b5c3-518d-4f9d-bbb6-4c7a60d33b3b")
 	)
+	(text "PDZ5.1BGWJ"
+		(exclude_from_sim no)
+		(at 107.188 91.694 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b16e4cb-f882-479f-a27c-b5023803169a")
+	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 186.69 140.97 0)
+		(at 186.69 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9223,7 +9207,7 @@
 	)
 	(text "PTT"
 		(exclude_from_sim no)
-		(at 186.69 143.51 0)
+		(at 186.69 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9232,9 +9216,22 @@
 		)
 		(uuid "90c0d276-823a-4805-89f7-4118b06c672e")
 	)
+	(text "Wurth RedCube\n7461057"
+		(exclude_from_sim no)
+		(at 249.428 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 17 34 1)
+			)
+		)
+		(uuid "a0c38f7e-3da1-4d53-a2b5-6b49c43615b0")
+	)
 	(text "I-PA"
 		(exclude_from_sim no)
-		(at 185.42 146.05 0)
+		(at 185.42 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9242,27 +9239,6 @@
 			(justify left bottom)
 		)
 		(uuid "b3f1bfeb-a837-4362-9336-0acb8d37475d")
-	)
-	(global_label "TXRX_RELAY"
-		(shape input)
-		(at 64.77 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d3ea0f1-6d06-42a2-a73c-88e9a3afebf8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.1083 138.3506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "KjellKarlsen:R_Small")
@@ -9416,7 +9392,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1k2"
 			(at 96.52 68.58 90)
 			(effects
 				(font
@@ -9549,7 +9525,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1k2"
 			(at 96.52 60.96 90)
 			(effects
 				(font
@@ -9617,7 +9593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hv"
 			(at 95.0342 124.7278 0)
 			(effects
 				(font
@@ -9821,7 +9797,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1k2"
 			(at 96.52 33.02 90)
 			(effects
 				(font
@@ -9954,7 +9930,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hv"
 			(at 154.59 67.64 0)
 			(effects
 				(font
@@ -10008,15 +9984,15 @@
 	(symbol
 		(lib_id "Device:R_POT_TRIM")
 		(at 157.48 106.68 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "15eb6ae6-6d8f-499f-a0b3-7ad0e61d54f9")
 		(property "Reference" "RV3"
-			(at 155.7021 105.7715 0)
+			(at 155.7021 107.5885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +10001,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 155.7021 108.5466 0)
+			(at 155.7021 104.8134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10033,7 +10009,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3214G_Horizontal"
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3214X_Vertical"
 			(at 157.48 106.68 0)
 			(effects
 				(font
@@ -10080,7 +10056,8 @@
 	)
 	(symbol
 		(lib_id "KjellKarlsen:R_POT_Small")
-		(at 83.82 72.39 90)
+		(at 83.82 72.39 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10088,7 +10065,7 @@
 		(dnp no)
 		(uuid "1660c9c2-65ba-4dfc-8f83-d61af541b81e")
 		(property "Reference" "RV2"
-			(at 81.28 69.9834 90)
+			(at 86.36 69.9834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10103,7 +10080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3214G_Horizontal"
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3214X_Vertical"
 			(at 83.82 72.39 0)
 			(effects
 				(font
@@ -10840,12 +10817,11 @@
 			)
 		)
 		(property "Value" "HI1806T600R-10"
-			(at 154.94 64.6515 90)
+			(at 156.718 59.944 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1812_4532Metric"
@@ -10907,7 +10883,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hf"
 			(at 148.082 58.801 90)
 			(effects
 				(font
@@ -11381,7 +11357,7 @@
 				)
 			)
 		)
-		(property "Value" "100nH"
+		(property "Value" "100n"
 			(at 106.68 68.58 90)
 			(effects
 				(font
@@ -11519,8 +11495,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
-			(at 84.582 61.646 0)
+		(property "Value" "100R (or 22R)"
+			(at 78.486 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11654,7 +11630,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hf"
 			(at 141.882 53.521 90)
 			(effects
 				(font
@@ -11790,7 +11766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hv"
 			(at 72.1742 124.7278 0)
 			(effects
 				(font
@@ -11858,7 +11834,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1k2"
 			(at 96.52 25.4 90)
 			(effects
 				(font
@@ -11936,7 +11912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 109.22 88.9 0)
 			(effects
 				(font
@@ -12270,7 +12246,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hv"
 			(at 197.77 79.07 0)
 			(effects
 				(font
@@ -12603,7 +12579,8 @@
 	)
 	(symbol
 		(lib_id "KjellKarlsen:R_POT_Small")
-		(at 71.12 72.39 90)
+		(at 71.12 72.39 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12611,7 +12588,7 @@
 		(dnp no)
 		(uuid "8c01419b-3ecd-4d69-b7a8-7b0764ce23e5")
 		(property "Reference" "RV1"
-			(at 73.025 69.3484 90)
+			(at 69.215 69.3484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12626,7 +12603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3214G_Horizontal"
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3214X_Vertical"
 			(at 71.12 72.39 0)
 			(effects
 				(font
@@ -12688,7 +12665,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54J"
+		(property "Value" "SS36"
 			(at 73.66 136.0255 0)
 			(effects
 				(font
@@ -12696,7 +12673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MELF"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 73.66 142.875 0)
 			(effects
 				(font
@@ -13449,8 +13426,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
-			(at 71.782 61.546 0)
+		(property "Value" "100R (or 22R)"
+			(at 65.532 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13922,7 +13899,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hv"
 			(at 160.02 69.85 0)
 			(effects
 				(font
@@ -14076,7 +14053,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hv"
 			(at 147.64 67.94 0)
 			(effects
 				(font
@@ -14987,7 +14964,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 151.13 0)
+		(at 191.262 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14996,7 +14973,7 @@
 		(fields_autoplaced yes)
 		(uuid "c27f7afe-214e-405f-930a-4bedf35e4d72")
 		(property "Reference" "#PWR0104"
-			(at 176.53 157.48 0)
+			(at 184.912 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15005,15 +14982,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 155.6925 0)
+			(at 188.0871 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 151.13 0)
+			(at 191.262 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15022,7 +15000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 151.13 0)
+			(at 191.262 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15031,7 +15009,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 151.13 0)
+			(at 191.262 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15335,7 +15313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hv"
 			(at 58.2042 124.7278 0)
 			(effects
 				(font
@@ -15344,7 +15322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -15685,7 +15663,7 @@
 				)
 			)
 		)
-		(property "Value" "100nH"
+		(property "Value" "100n"
 			(at 110.49 25.4 90)
 			(effects
 				(font
@@ -15821,7 +15799,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hf"
 			(at 144.907 42.291 90)
 			(effects
 				(font
@@ -15889,7 +15867,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hf"
 			(at 144.907 35.941 90)
 			(effects
 				(font
@@ -16141,7 +16119,8 @@
 	)
 	(symbol
 		(lib_id "Device:Q_PMOS_GSD")
-		(at 86.36 123.19 90)
+		(at 86.36 123.19 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16165,7 +16144,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 83.82 118.11 0)
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16421,7 +16400,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f14962a0-81a9-409f-8226-737eb6cdae29")
 		(property "Reference" "#PWR0107"
 			(at 69.85 137.16 0)
@@ -16433,7 +16411,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 135.3725 0)
+			(at 66.802 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16481,7 +16459,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Male")
-		(at 198.12 143.51 0)
+		(at 198.12 148.59 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16491,7 +16469,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2219ee9-0b4a-411e-a31b-2be37c4295a8")
 		(property "Reference" "J3"
-			(at 199.39 142.2399 0)
+			(at 198.8312 147.3778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16499,8 +16477,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x03_Male"
-			(at 199.39 144.7799 0)
+		(property "Value" "Molex kk 2.54-3"
+			(at 198.8312 149.8021 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16509,7 +16487,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
-			(at 198.12 143.51 0)
+			(at 198.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16518,7 +16496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 143.51 0)
+			(at 198.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16527,7 +16505,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 143.51 0)
+			(at 198.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16637,7 +16615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n hv"
 			(at 200.279 69.977 0)
 			(effects
 				(font
