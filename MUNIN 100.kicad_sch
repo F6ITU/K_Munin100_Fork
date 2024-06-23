@@ -4492,120 +4492,6 @@
 				)
 			)
 		)
-		(symbol "LA2NI:FB_Link"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L?"
-				(at 2.54 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FB_Link"
-				(at 2.54 -3.8099 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FB_Link_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.898 -2.168)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 -1.27)
-					(mid 0.898 -0.372)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FB_Link_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -7806,6 +7692,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 66.04) (xy 113.03 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec39ac4-0b03-4bc7-a257-e08a95d9eb5a")
+	)
+	(wire
+		(pts
 			(xy 91.44 26.67) (xy 91.44 30.48)
 		)
 		(stroke
@@ -7993,16 +7889,6 @@
 			(type default)
 		)
 		(uuid "84502e2c-450e-4573-b4ab-fff1bc75a032")
-	)
-	(wire
-		(pts
-			(xy 107.95 26.67) (xy 118.11 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86571e29-fd6d-4f27-bd9d-5a40e1d243e7")
 	)
 	(wire
 		(pts
@@ -8246,6 +8132,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 26.67) (xy 113.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2752ede-0cde-43ca-ba6d-219394d44cd2")
+	)
+	(wire
+		(pts
 			(xy 67.31 175.26) (xy 76.2 175.26)
 		)
 		(stroke
@@ -8376,16 +8272,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 50.8) (xy 118.11 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0cadfe4-8c46-46e8-abd7-7ee9272a1de2")
-	)
-	(wire
-		(pts
 			(xy 104.14 59.69) (xy 113.03 59.69)
 		)
 		(stroke
@@ -8473,16 +8359,6 @@
 			(type default)
 		)
 		(uuid "b79dbea0-e2b8-47ef-80e3-8db261a567a7")
-	)
-	(wire
-		(pts
-			(xy 118.11 26.67) (xy 118.11 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7fa06b5-8938-4b52-8e91-512aeee23c52")
 	)
 	(wire
 		(pts
@@ -8646,16 +8522,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 66.04) (xy 118.11 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8a4d71b-44d2-4560-a4e9-4ee6c9e63d6d")
-	)
-	(wire
-		(pts
 			(xy 128.27 119.38) (xy 128.27 120.65)
 		)
 		(stroke
@@ -8753,6 +8619,16 @@
 			(type default)
 		)
 		(uuid "d720080c-dbef-48d3-82d8-72aeaab5e7a4")
+	)
+	(wire
+		(pts
+			(xy 107.95 26.67) (xy 113.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8124936-5863-401a-8570-cfe4e584cba9")
 	)
 	(wire
 		(pts
@@ -8933,6 +8809,16 @@
 			(type default)
 		)
 		(uuid "ecd40b99-db4d-485a-a438-5594ca9fc2d3")
+	)
+	(wire
+		(pts
+			(xy 113.03 66.04) (xy 113.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb0c467-8f46-44c2-b3e0-e35c220ccd1f")
 	)
 	(wire
 		(pts
@@ -9184,6 +9070,16 @@
 		)
 		(uuid "ffa5b5c3-518d-4f9d-bbb6-4c7a60d33b3b")
 	)
+	(text "S\n"
+		(exclude_from_sim no)
+		(at 104.902 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "006a2c4f-1a80-4b3c-b3a6-74644d36241a")
+	)
 	(text "PDZ5.1BGWJ"
 		(exclude_from_sim no)
 		(at 107.188 91.694 90)
@@ -9193,6 +9089,16 @@
 			)
 		)
 		(uuid "3b16e4cb-f882-479f-a27c-b5023803169a")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 105.156 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48210d23-a440-4756-949d-86547ccbb96e")
 	)
 	(text "GND"
 		(exclude_from_sim no)
@@ -9204,6 +9110,16 @@
 			(justify left bottom)
 		)
 		(uuid "4ddd5e49-a464-47a5-a2f1-36fdd5f37d00")
+	)
+	(text "TLT : 1 turn in \nmaterial 43  or 61 binocular \n6 or 8 Ohms coax cable\n"
+		(exclude_from_sim no)
+		(at 128.016 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85474f51-e8ed-4ba1-b7cd-1331ca4b5094")
 	)
 	(text "PTT"
 		(exclude_from_sim no)
@@ -9239,6 +9155,26 @@
 			(justify left bottom)
 		)
 		(uuid "b3f1bfeb-a837-4362-9336-0acb8d37475d")
+	)
+	(text "any -60V\np-FET "
+		(exclude_from_sim no)
+		(at 87.376 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd70db3c-23b2-4830-b01f-fb8b9a9e0504")
+	)
+	(text "G\n"
+		(exclude_from_sim no)
+		(at 99.822 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7f99313-eb23-4c1e-b43d-aff11d3327c2")
 	)
 	(symbol
 		(lib_id "KjellKarlsen:R_Small")
@@ -9984,7 +9920,6 @@
 	(symbol
 		(lib_id "Device:R_POT_TRIM")
 		(at 157.48 106.68 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9992,7 +9927,7 @@
 		(dnp no)
 		(uuid "15eb6ae6-6d8f-499f-a0b3-7ad0e61d54f9")
 		(property "Reference" "RV3"
-			(at 155.7021 107.5885 0)
+			(at 155.7021 105.7715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10001,7 +9936,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 155.7021 104.8134 0)
+			(at 155.7021 108.5466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,31 +11276,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "KjellKarlsen:C_Small")
 		(at 104.14 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5576f1f5-1577-4188-b9b8-bdb743b301c5")
-		(property "Reference" "C27"
-			(at 104.14 63.5 90)
+		(uuid "59671d3a-81b0-4671-b1cb-be012858b495")
+		(property "Reference" "C28"
+			(at 106.68 64.6135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 106.68 68.58 90)
+		(property "Value" "100n hf"
+			(at 106.807 68.961 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 104.14 66.04 0)
 			(effects
 				(font
@@ -11393,15 +11329,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1991f9e1-b7a0-4493-be42-d607575d8c6a")
+			(uuid "0ffe878c-21fd-4c90-a8cd-d539dc9b2f47")
 		)
 		(pin "2"
-			(uuid "812bdf8e-6cb0-4f45-aef5-f93f110ea684")
+			(uuid "eb33ba53-ddc5-4c25-a9d9-9567a70bba24")
 		)
 		(instances
 			(project "MUNIN 100"
 				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
-					(reference "C27")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -11487,7 +11423,7 @@
 		(dnp no)
 		(uuid "5ecab3f7-40ce-4011-b124-2d8c99d0c977")
 		(property "Reference" "R4"
-			(at 84.6837 59.4435 0)
+			(at 83.82 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11496,7 +11432,7 @@
 			)
 		)
 		(property "Value" "100R (or 22R)"
-			(at 78.486 60.96 0)
+			(at 78.74 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13418,7 +13354,7 @@
 		(dnp no)
 		(uuid "a273d5a5-d56d-4929-9fb9-2829f7f20ef3")
 		(property "Reference" "R1"
-			(at 71.3487 59.4435 0)
+			(at 71.12 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13427,7 +13363,7 @@
 			)
 		)
 		(property "Value" "100R (or 22R)"
-			(at 65.532 63.5 0)
+			(at 65.532 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13945,6 +13881,74 @@
 			(project "MUNIN 100"
 				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KjellKarlsen:C_Small")
+		(at 105.41 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac8d7c72-5a15-4618-a318-24560e08fc22")
+		(property "Reference" "C27"
+			(at 107.95 25.2435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n hf"
+			(at 110.998 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 105.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae804c4c-532c-4150-82d0-fd2d2c56990c")
+		)
+		(pin "2"
+			(uuid "d5f10ed3-3218-4c3b-bb2d-e1dda395fa40")
+		)
+		(instances
+			(project "MUNIN 100"
+				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -15365,75 +15369,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LA2NI:FB_Link")
-		(at 118.11 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8e89efb-b95e-4145-b0de-b515a4ee8ad9")
-		(property "Reference" "L5"
-			(at 115.57 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 T"
-			(at 115.57 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal"
-			(at 118.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e480baa-98c4-4d28-88a0-17185cea8c9c")
-		)
-		(pin "2"
-			(uuid "f002df1d-bd39-4b4f-88ed-251557e7aff2")
-		)
-		(instances
-			(project "MUNIN 100"
-				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
-					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KjellKarlsen:C_Small")
 		(at 91.44 69.85 180)
 		(unit 1)
@@ -15641,73 +15576,6 @@
 			(project "MUNIN 100"
 				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 105.41 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d52c2e3d-6679-4669-90d7-8016b29c4391")
-		(property "Reference" "C28"
-			(at 105.41 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 110.49 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 105.41 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92cf4033-4474-458f-91aa-73b977ffde9c")
-		)
-		(pin "2"
-			(uuid "ba7aaa92-b801-495c-824e-a13a35b4a6c6")
-		)
-		(instances
-			(project "MUNIN 100"
-				(path "/23397694-a57f-4fcf-95b5-f9e2ccb3d33d"
-					(reference "C28")
 					(unit 1)
 				)
 			)
