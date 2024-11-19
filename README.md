@@ -7,6 +7,8 @@ Original design by Kjell LA2NI
 
 Some small mods by f6itu (just some kicad settings and design)
 
+![Munin, a 100W HF linear amplifier](https://github.com/F6ITU/K_Munin100_Fork/blob/main/MUNIN%20100.png)
+
 
 ![Munin, a 100W HF linear amplifier](https://github.com/F6ITU/K_Munin100_Fork/blob/main/MUNIN%20100-B.png)
 
@@ -44,17 +46,35 @@ This LDMoS transistor-based amplifier brings speech over the great distances of 
 
 
 # Work in progress
-do NOT use these files as long as this footnote hasn't been deleted
 
-As far as I know, this amp has never been build. Some minor kicad errors and design hickups have been fix
+Use these files at your own risk (that's the moto of ham homebrew)
+
+As far as I know, this amp has never been build. Some minor KiCad errors and design hickups have been fix
+
+The  the 1:4 input impedance transformer could be replaced with a simple coax strap (with or without ferrite core) as the combined impedance of the two transistors is approximately 50 Ohms at 55 MHz. On lower frequencies, the value of Z
+is determined by the value of R4-R11 (22 Ohms, not yet tested) 
+
 
 the pcb has been design to accomodate two feedback techniques : 
 - coupling from a "secondary" winding in the first TLT
-- or direct pickup of the drain signal
+- or direct pickup of the drain signal fia a C & R feedback circuit
+
 Value or R16/19 should be changed accordingly 
 
-ibidem : the  the 1:4 input impedance transformer could be replaced with a simple coax strap (with or without ferrite core) as the combined impedance of the two transistors is approximately 50 Ohms at 55 MHz. On lower frequencies, the value of Z
-is determined by the value of R4-R11 (22 Ohms, not yet tested) 
+the first TLT MUST be soldered as short as possible. That's the reason why the third beta of this pcb uses a fat power trace located on the bottom Cu side of the board. 
+
+For more information, please consider reading 
+
+https://ludens.cl/Electron/50Wamp/50Wamp.html
+
+and 
+
+https://ludens.cl/Electron/RFamps/RFamps.html
+
+(chapter "Broadband push-pull amplifiers" 
+
+
+
 
 
 
