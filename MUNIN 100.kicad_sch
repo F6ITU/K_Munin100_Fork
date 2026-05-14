@@ -6932,7 +6932,7 @@
 	)
 	(text "TO220 case\nscrewed onto heatsink"
 		(exclude_from_sim no)
-		(at 153.67 121.92 0)
+		(at 147.32 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13577,7 +13577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LA2NI:TO-220-3_Horizontal_TabDown_SMD"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown"
 			(at 106.68 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -17900,7 +17900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LA2NI:TO-220-3_Horizontal_TabDown_SMD"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown"
 			(at 106.68 52.705 0)
 			(hide yes)
 			(show_name no)
